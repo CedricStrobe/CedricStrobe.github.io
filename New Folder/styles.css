@@ -1,6 +1,8 @@
 img { 
     height:200px;
     width:400px;
+    position: relative;
+    right:20px;
 }
 
 h1 {
@@ -11,15 +13,16 @@ h1 {
 
 body {
     text-align: center;
-    background-color: #d0f6da;
+    background-color:#ccffeb;
 }
 
-ul {
+#first {
     font-size:30px;
     line-height: 40px;
     color:#a2bc55;
     border: solid 10px #6d6c7a;
     text-decoration: bold;
+    float: left;
 }
 
 h3 {
